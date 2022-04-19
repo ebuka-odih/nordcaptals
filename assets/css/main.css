@@ -1,0 +1,282 @@
+.header-banner-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 490px;
+  height: 490px;
+}
+
+.logo-el1 {
+  background: url(../img/logo-head/logo-el1.png) 50%;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  -webkit-animation: rotate 5s linear infinite;
+          animation: rotate 5s linear infinite;
+  -webkit-transform-origin: center center;
+      -ms-transform-origin: center center;
+          transform-origin: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.logo-el2 {
+  background: url(../img/logo-head/logo-el2.png) 50%;
+  width: 430px;
+  height: 430px;
+  background-size: contain;
+  -webkit-animation: rotate 5s linear infinite reverse;
+          animation: rotate 5s linear infinite reverse;
+  -webkit-transform-origin: center center;
+      -ms-transform-origin: center center;
+          transform-origin: center center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -215px;
+  margin-left: -215px;
+  z-index: 5;
+}
+
+.logo-el3 {
+  background: url(../img/logo-head/logo-el3.png) 50%;
+  width: 376px;
+  height: 376px;
+  background-size: contain;
+  -webkit-animation: pulse2 10s linear infinite;
+          animation: pulse2 10s linear infinite;
+  -webkit-transform-origin: center center;
+      -ms-transform-origin: center center;
+          transform-origin: center center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -188px;
+  margin-left: -188px;
+  z-index: 4;
+}
+
+.logo-el4 {
+  background: url(../img/logo-head/logo-el4.png) 50%;
+  width: 400px;
+  height: 400px;
+  -webkit-animation: opacity 1s linear infinite;
+          animation: opacity 1s linear infinite;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -215px;
+  z-index: 3;
+}
+
+.logo-el5 {
+  background: url(../img/logo-head/logo-el5.png) 50%;
+  width: 250px;
+  height: 250px;
+  background-size: contain;
+  -webkit-animation: pulse 5s linear infinite;
+          animation: pulse 5s linear infinite;
+  -webkit-transform-origin: center center;
+      -ms-transform-origin: center center;
+          transform-origin: center center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -125px;
+  margin-left: -125px;
+  z-index: 2;
+  opacity: 0;
+}
+
+.logo-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: url(../img/logo-head/logo-center.png) 50%;
+  background-size: contain;
+  width: 134px;
+  height: 185px;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.logo-light {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 756px;
+  height: 511px;
+  z-index: 8;
+  margin-top: -255px;
+  margin-left: -380px;
+}
+
+.logo-light:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../img/logo-head/logo_light.png) 50%;
+  -webkit-animation: light 1s ease-out;
+          animation: light 1s ease-out;
+}
+
+.logo-el-left {
+  position: absolute;
+  background: url(../img/logo-head/logo-el-left.png) 50%;
+  width: 427px;
+  height: 228px;
+  left: -140px;
+  top: 50%;
+  margin-top: -110px;
+  z-index: 8;
+}
+
+.logo-el-right {
+  position: absolute;
+  background: url(../img/logo-head/logo-el-right.png) 50%;
+  width: 427px;
+  height: 228px;
+  right: -190px;
+  top: 50%;
+  margin-top: -119px;
+  z-index: 8;
+}
+
+@-webkit-keyframes light {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes light {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes pulse2 {
+  0% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse2 {
+  0% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
