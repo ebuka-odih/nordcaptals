@@ -1,319 +1,382 @@
 @extends('pages.layout.app')
 @section('content')
+    @include('pages.layout.menu')
 
-    <div class="main-home-content">
-        <main class="main">
-            <section class="sectio section_main-slider">
-                <ul class="main-slider__list">
-                    <li class="main-slider__item main-slider__item_1">
-                        <div class="wrapper">
-                            <h2>TRADE FOREX, CFD CRYPTO AND OPTIONS</h2>
-                            <ul class="main-trade__list owl-carousel owl-theme">
-                                <li class="main-trade__item">
-                                    <div class="main-trade-title">24/7 Non-stop trading</div>
-                                    <div class="main-trade-text">including weekends</div>
-                                </li>
-                                <li class="main-trade__item">
-                                    <div class="main-trade-title">$<span data-md>250</span> Minimum deposit</div>
-                                    <div class="main-trade-text">affordable for everyone</div>
-                                </li>
-                                <li class="main-trade__item">
-                                    <div class="main-trade-title">$1 Minimum trade size</div>
-                                    <div class="main-trade-text">suitable for beginners</div>
-                                </li>
-                                <li class="main-trade__item">
-                                    <div class="main-trade-title">100+ Trading assets</div>
-                                    <div class="main-trade-text">stocks, crypto, commodities</div>
-                                </li>
-                            </ul>
-                            <div class="btn-row"> <a href="{{ route('register') }}" class="ui white shade button h-auto mw-200 upper">START TRADING NOW</a> </div>
-                        </div>
-                    </li>
-                    <li class="main-slider__item main-slider__item_2">
-                        <div class="wrapper">
-                            <h2>Get Extra 20% Income</h2>
-                            <ul class="main-extra__list owl-carousel owl-theme">
-                                <li class="main-extra__item">
-                                    <div class="main-extra-name">Share your referral link</div>
-                                </li>
-                                <li class="main-extra__item">
-                                    <div class="main-extra-name">Get 20% back from your client deposits</div>
-                                </li>
-                                <li class="main-extra__item">
-                                    <div class="main-extra-name">Withdraw your earnings or trade and get even more profit</div>
-                                </li>
-                            </ul>
-                            <div class="btn-row"> <a href="{{ route('referral') }}" class="ui white-green shade button h-auto mw-200 upper">Refer a friend</a> </div>
-                        </div>
-                    </li>
-                    <li class="main-slider__item main-slider__item_3">
-                        <div class="wrapper">
-                            <h2>THE BIG GIVEAWAY <span>Get 100% bonus & win prizes</span></h2>
-                            <div class="btn-row"> <a href="{{ route('giveaway') }}" class="ui white-orange shade button h-auto mw-200 upper">Read more</a> </div>
-                        </div>
-                    </li>
-                </ul>
-                <div class="main-slider-abs">
-                    <div class="wrapper">
-                        <div class="main-slider-decor">
-                            <svg width="48" height="48" viewBox="0 0 48 48">
-                                <circle cx="24" cy="24" r="22.5" class="main-circle-1" />
-                                <circle cx="24" cy="24" r="22.5" data-finish="0" data-start="141" class="main-circle-2 js-stroke" /> </svg> <span><small class="main-current-slide"></small>/<small>3</small></span> </div>
+    <div class="homehow">
+        <div class="homehowgrad">
+            <div class="homehowicobg post ">
+                <img class="rotate imgblock" src="{{ asset('front/images/howbgico.png') }}">
+            </div>
+            <div class="container ">
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="post">
+                    <div class="homeptit w">How it works</div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="homesol post">
+                    <img src="{{ asset('front/images/h1.png') }}">
+                    <div class="homesoltit">Create Account</div>
+                    <div class="homewhytxt">Registration takes about 2 min and is free. Your account will be active immediately.</div>
+                    <br>
+                    <br>
+                    <br>
+                    <a class="homewhybtn" href="{{ route('register') }}">Join now</a>
+                </div>
+                <div class="homesol post ">
+                    <img src="{{ asset('front/images/h2.png') }}">
+                    <div class="homesoltit">Deposit</div>
+                    <div class="homewhytxt">The process is very simple. You can make a deposit using 7 available payment methods.</div>
+                    <br>
+                    <br>
+                    <br>
+                    <a class="homewhybtn" href="{{ route('register') }}">Join now</a>
+                </div>
+                <div class="homesol post ">
+                    <img src="{{ asset('front/images/h3.png') }}">
+                    <div class="homesoltit">Withdraw</div>
+                    <div class="homewhytxt">You will receive profit every day after you make a deposit. Instant payments. 7 days in a week.</div>
+                    <br>
+                    <br>
+                    <br>
+                    <a class="homewhybtn" href="{{ route('register') }}">Join now</a>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="post">
+                    <div class="homeptit2 w">Crypto Currency</div>
+                    <div class="hometxt2">Live Price</div>
+                </div>
+                <br>
+                <br>
+                <div class="homeitembox post ">
+                    <div class="itemimg">
+                        <img src="{{ asset('front/images/pr-btc.png') }}">
                     </div>
-                </div>
-            </section>
-            <section class="section section_main-success">
-                <div class="wrapper">
-                    <h2>3 Easy Steps to Your Success</h2>
-                    <ul class="main-success__list js-slider-991">
-                        <li class="main-success__item">
-                            <div class="main-success-icon"><span class="icon-success-1"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span></span>
-                            </div>
-                            <h3>Sign up and get a gift!</h3>
-                            <p>Registration takes less
-                                <br> than a minute</p>
-                        </li>
-                        <li class="main-success__item">
-                            <div class="main-success-icon"><span class="icon-success-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span></span>
-                            </div>
-                            <h3>Fund your account</h3>
-                            <p>Transfer funds to your
-                                <br> trading account and start trading</p>
-                        </li>
-                        <li class="main-success__item">
-                            <div class="main-success-icon"><span class="icon-success-3"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span></span>
-                            </div>
-                            <h3>Forecast market direction</h3>
-                            <p>Open a trade in the right direction
-                                <br> and earn!</p>
-                        </li>
-                    </ul>
-                    <ul class="main-success-partners__list">
-                        <li class="main-success-partners__item"><img src="assets/css/img/main/partner-2.png" alt="partner"></li>
-                        <li class="main-success-partners__item"><img src="assets/css/img/main/partner-4.png" alt="partner"></li>
-                        <li class="main-success-partners__item"><img src="assets/css/img/main/partner-5.png" alt="partner"></li>
-                        <li class="main-success-partners__item"><img src="assets/css/img/main/partner-3.png" alt="partner"></li>
-                        <li class="main-success-partners__item"><img src="assets/css/img/main/partner-10.png" alt="partner"></li>
-                        <li class="main-success-partners__item"><img src="assets/css/img/main/partner-9.png" alt="partner"></li>
-                        <li class="main-success-partners__item"><img src="assets/css/img/main/partner-1.png" alt="partner"></li>
-                        <li class="main-success-partners__item"><img src="assets/css/img/main/partner-6.png" alt="partner"></li>
-                        <li class="main-success-partners__item"><img src="assets/css/img/main/partner-7.png" alt="partner"></li>
-                        <li class="main-success-partners__item"><img src="assets/css/img/main/partner-8.png" alt="partner"></li>
-                    </ul>
-                </div>
-            </section>
-            <section class="section section_main-platform">
-                <div class="wrapper">
-                    <div class="inner">
-                        <h2>Top-Notch Trading Platform</h2>
-                        <p>Trade Crypto, Forex, CFDs and earn up to 95% extra income in 60 seconds on Raceoption platform. Copy trades of the most successful traders and earn even more!</p>
+                    <div class="itemtit">$
+                        <span id="btc_rate"></span>
                     </div>
-                    <div class="main-platform">
-                        <div class="main-platform-box main-platform-box_1">
-                            <div class="main-platform-info main-platform-info_1"> <a href="#" class="main-platform-btn"><span></span><span></span></a>
-                                <div class="main-platform-hide">Use Copy Trading tool to copy the most successful traders</div>
-                            </div>
-                            <div class="main-platform-info main-platform-info_2"> <a href="#" class="main-platform-btn"><span></span><span></span></a>
-                                <div class="main-platform-hide">Monitor the candle and tick charts and forecast market direction</div>
-                            </div>
-                            <div class="main-platform-pic"><img src="assets/css/img/main/platform-1.png" alt="platform"></div>
-                        </div>
-                        <div class="main-platform-box main-platform-box_2">
-                            <div class="main-platform-info"> <a href="#" class="main-platform-btn"><span></span><span></span></a>
-                                <div class="main-platform-hide">Check your balance and select currency of your trading account</div>
-                            </div>
-                            <div class="main-platform-pic"><img src="assets/css/img/main/platform-2.png" alt="platform"></div>
-                        </div>
-                        <div class="main-platform-box main-platform-box_3">
-                            <div class="main-platform-info"> <a href="#" class="main-platform-btn"><span></span><span></span></a>
-                                <div class="main-platform-hide">Choose one of 100+ trading assets available for trading</div>
-                            </div>
-                            <div class="main-platform-pic"><img src="assets/css/img/main/platform-3.png" alt="platform"></div>
-                        </div>
-                        <div class="main-platform-box main-platform-box_4">
-                            <div class="main-platform-info"> <a href="#" class="main-platform-btn"><span></span><span></span></a>
-                                <div class="main-platform-hide">Choose trade type and earn within 60 seconds!</div>
-                            </div>
-                            <div class="main-platform-pic"><img src="assets/css/img/main/platform-4.png" alt="platform"></div>
-                        </div>
+                    <div class="itemtxt">Bitcoin</div>
+                </div>
+                <div class="homeitembox post ">
+                    <div class="itemimg">
+                        <img src="{{ asset('front/images/pr-bch.png') }}">
                     </div>
-                </div>
-            </section>
-            <section class="section section_main-step">
-                <div class="wrapper">
-                    <div class="inner">
-                        <h2>No Previous Experience in Trading?</h2>
-                        <p>Just start copying the most successful traders!</p>
+                    <div class="itemtit">$
+                        <span id="bch_rate"></span>
                     </div>
-                    <div class="main-step-wrap">
-                        <ul class="main-step__list js-slider-991">
-                            <li class="main-step__item">
-                                <div class="main-step-icon"><span>Step 1</span></div>
-                                <h3>Choose trader to copy trades</h3>
-                                <p>Select one or several traders from our most successful traders.</p>
-                            </li>
-                            <li class="main-step__item">
-                                <div class="main-step-icon"><span>Step 2</span></div>
-                                <h3>Monitor your earnings</h3>
-                                <p>You don't need to trade manually, just follow your balance growing!</p>
-                            </li>
-                            <li class="main-step__item">
-                                <div class="main-step-icon"><span>Step 3</span></div>
-                                <h3>Withdraw your profit</h3>
-                                <p>Request your withdrawal and get paid on your cryptocurrency wallet anytime.</p>
-                            </li>
-                        </ul>
-                        <div class="main-step-pic"><img src="assets/css/img/main/step-pic.png" alt="img"></div>
+                    <div class="itemtxt">Bitcoin Cash</div>
+                </div>
+                <div class="homeitembox post ">
+                    <div class="itemimg">
+                        <img src="{{ asset('front/images/pr-eth.png') }}">
                     </div>
-                    <ul class="main-top-traider__list js-main-slider">
-                        <li class="main-top-traider__item">
-                            <div class="main-top-traider-top">
-                                <div class="main-top-traider-name">
-                                    <div class="main-top-traider-name__text">Jacob S.</div>
-                                    <div class="main-top-traider-name__icon"><img src="assets/css/img/main/flag-2.svg" alt="flag"></div>
-                                </div>
-                                <div class="main-top-traider-copy"><span>7891</span> copying right now</div>
-                            </div>
-                            <div class="main-top-traider-bottom">
-                                <div class="main-top-traider-percent">
-                                    <div>297%</div>
-                                    <div>Monthly gain</div>
-                                </div> <a href="{{ route('register') }}" class="btn">Follow</a> </div>
-                        </li>
-                        <li class="main-top-traider__item">
-                            <div class="main-top-traider-top">
-                                <div class="main-top-traider-name">
-                                    <div class="main-top-traider-name__text">Valery N.</div>
-                                    <div class="main-top-traider-name__icon"><img src="assets/css/img/main/flag-2.svg" alt="flag"></div>
-                                </div>
-                                <div class="main-top-traider-copy"><span>3881</span> copying right now</div>
-                            </div>
-                            <div class="main-top-traider-bottom">
-                                <div class="main-top-traider-percent">
-                                    <div>252%</div>
-                                    <div>Monthly gain</div>
-                                </div> <a href="{{ route('register') }}" class="btn">Follow</a> </div>
-                        </li>
-                        <li class="main-top-traider__item">
-                            <div class="main-top-traider-top">
-                                <div class="main-top-traider-name">
-                                    <div class="main-top-traider-name__text">John Z.</div>
-                                    <div class="main-top-traider-name__icon"><img src="assets/css/img/main/flag-2.svg" alt="flag"></div>
-                                </div>
-                                <div class="main-top-traider-copy"><span>3099</span> copying right now</div>
-                            </div>
-                            <div class="main-top-traider-bottom">
-                                <div class="main-top-traider-percent">
-                                    <div>146%</div>
-                                    <div>Monthly gain</div>
-                                </div> <a href="{{ route('register') }}" class="btn">Follow</a> </div>
-                        </li>
-                    </ul>
+                    <div class="itemtit">$
+                        <span id="eth_rate"></span>
+                    </div>
+                    <div class="itemtxt">Ethereum</div>
                 </div>
-            </section>
-            <section class="section section_main-advantages">
-                <div class="wrapper">
-                    <h2>Raceoption Advantages</h2>
-                    <ul class="main-advantage__list js-slider-991">
-                        <li class="main-advantage__item">
-                            <div class="main-advantage-icon" style="font-size: 50px"><span class="icon-advantage-1"><span
-                                        class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span></span>
-                            </div>
-                            <div class="main-advantage-text">Guaranteed withdrawals processing
-                                <br> within 1 hour</div>
-                        </li>
-                        <li class="main-advantage__item">
-                            <div class="main-advantage-icon" style="font-size: 52px"><span class="icon-advantage-2"><span
-                                        class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span></span>
-                            </div>
-                            <div class="main-advantage-text">Possibility to trade
-                                <br> over weekends</div>
-                        </li>
-                        <li class="main-advantage__item">
-                            <div class="main-advantage-icon" style="font-size: 58px"><span class="icon-advantage-3"><span
-                                        class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span></span>
-                            </div>
-                            <div class="main-advantage-text">Wide range of funding and
-                                <br> withdrawals methods</div>
-                        </li>
-                        <li class="main-advantage__item">
-                            <div class="main-advantage-icon" style="font-size: 55px"><span class="icon-advantage-4"><span
-                                        class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
-                            </div>
-                            <div class="main-advantage-text">100% secured trading with the data protection</div>
-                        </li>
-                        <li class="main-advantage__item">
-                            <div class="main-advantage-icon" style="font-size: 45px"><span class="icon-advantage-5"><span
-                                        class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
-                            </div>
-                            <div class="main-advantage-text">Guided trading facility with
-                                <br> a help of skilled advisor</div>
-                        </li>
-                        <li class="main-advantage__item">
-                            <div class="main-advantage-icon" style="font-size: 47px"><span class="icon-advantage-6"><span
-                                        class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span></span>
-                            </div>
-                            <div class="main-advantage-text">More than 10 000 trades,
-                                <br> served daily</div>
-                        </li>
-                        <li class="main-advantage__item">
-                            <div class="main-advantage-icon" style="font-size: 50px"><span class="icon-advantage-7"><span
-                                        class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span></span>
-                            </div>
-                            <div class="main-advantage-text">Customer support 24/7</div>
-                        </li>
-                        <li class="main-advantage__item">
-                            <div class="main-advantage-icon" style="font-size: 41px"><span class="icon-advantage-8"><span
-                                        class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span></span>
-                            </div>
-                            <div class="main-advantage-text">Copy trades and earn even without
-                                <br> any experience in trading</div>
-                        </li>
-                    </ul>
-                    <div class="btn-row"> <a href="{{ route('register') }}" class="btn btn_accent">Open account now</a> </div>
+                <div class="homeitembox post ">
+                    <div class="itemimg">
+                        <img src="{{ asset('front/images/pr-ltc.png') }}">
+                    </div>
+                    <div class="itemtit">$
+                        <span id="ltc_rate"></span>
+                    </div>
+                    <div class="itemtxt">Litecoin</div>
                 </div>
-            </section>
-            <section class="section section_main-contest">
-                <div class="wrapper">
-                    <div class="main-contest-wrap">
-                        <div class="main-contest-box">
-                            <h2>Trading Contest</h2>
-                            <p>Take part in the competition every
-                                <br> week and win up to </p>
-                            <div class="main-contest-count">$20K</div>
-                            <div class="main-contest-pic"> <img src="assets/css/img/main/main-prize-1.png" alt="main prize"> </div>
-                            <div class="btn-row"> <a href="{{ route('contest') }}" class="ui white-orange shade button h-auto mw-200 upper">Join now</a> </div>
+            </div>
+        </div>
+    </div>
+    <div class="homewelbg">
+        <div class="container2">
+            <div class="block1 ltr post8">
+                <img class="homebtc imgblock animated infinite flash slower "  alt=""/>
+                <img class="homebtc imgblock updown2" src="{{ asset('front/images/homebtc2.png') }}" alt=""/ width="450">
+                <img class="imgblock"  alt=""src="{{ asset('front/images/homebtc2.png') }}" width="450"/ >
+            </div>
+            <div class="block2 post9" align="left">
+                <div class="hometxt2">What is Nordcaptals</div>
+                <span class="hometxt1 w">About Us</span>
+                <br>
+                <div class="logosplit"></div>
+                <br>
+                <div class="hometxt2about w">
+                    By carrying out successful transactions on the cryptocurrency exchange, traders and investors have the opportunity to receive income that is characterized by stability and significance. However, it is pointless to count on success in trading if a trader is not guided by the peculiarities of the cryptocurrency market, which has important differences from other markets.
+
+                    <br>
+                    <br>
+
+                    The main task of Nordcaptals remains unchanged to acquire assets at the minimum cost, and sell at the maximum, but at the same time we must not forget about the trend of rapid volatility of quotations, in other words, its volatility, which is especially characteristic of this market. This, on the one hand, is an advantage for quick transactions and rapid increase in the deposit, but on the other hand, it implies high risks of losing investments. Unlike traditional exchanges, where large investments are required to generate tangible profits, even a minimal deposit in cryptocurrency trading can become the basis for the accumulation of significant income.
+
+                </div>
+                <br>
+                <br>
+                <!--  <img class="imgblock post9 hidden visible animated fadeInUp full-visible" src="images/evl.png" alt="">-->
+                <br>
+                <br>
+                <br>
+                <br>
+                <a class="sbmt" href="index3898.html?a=cust&amp;page=about">
+                    <i class="fas fa-long-arrow-alt-right"></i> About us
+                </a>
+            </div>
+        </div>
+        <div class="homeitembg">
+            <div class="container post "></div>
+        </div>
+    </div>
+    <script>
+        $(window).load(function () {
+            $(".trigger_popup_fricc").click(function(){
+                $('.hover_bkgr_fricc').show();
+            });
+            $('.hover_bkgr_fricc').click(function(){
+                $('.hover_bkgr_fricc').hide();
+            });
+            $('.popupCloseButton').click(function(){
+                $('.hover_bkgr_fricc').hide();
+            });
+        });
+    </script>
+    <div class="hover_bkgr_fricc">
+        <span class="helper"></span>
+        <div>
+            <div class="popupCloseButton">X</div>
+            <div class="hoverpop">OUR CERTIFICATE</div>
+            <p>
+                <img class="hoverimg imgblock" src="{{ asset('front/images/certificate.html') }}">
+            </p>
+        </div>
+    </div>
+    <div class="homeplanbg">
+        <div class="container">
+            <div class="post">
+                <div class="homeptitplan">Investments Plans</div>
+            </div>
+            <br>
+            <br>
+            <div class="homefebox post2">
+                <div class="homeplanico">
+                    <img src="{{ asset('front/images/p1.png') }}">
+                </div>
+                <br>
+                <span class="homefetit2">Starter</span>
+                <div class="homefetit">1.5% Daily For 10 days</div>
+                <div class="homefetxt">
+                    <span class="homefetxtl">MIN:</span>
+                    <span class="homefetxtr">100 USD</span>
+                </div>
+                <div class="homefetxt">
+                    <span class="homefetxtl">MAX:</span>
+                    <span class="homefetxtr">4,999 USD</span>
+                </div>
+                <div class="homefetxt">
+                    <span class="homefetxtl">Referral Commission:</span>
+                    <span class="homefetxtr">10%</span>
+                </div>
+                <div class="homefetxt">
+                    <span class="homefetxtl">TOTAL ROI:</span>
+                    <span class="homefetxtr">15%</span>
+                </div>
+                <div class="homefetxt">
+                    <span class="homefetxtl">PAYMENTS:</span>
+                    <span class="homefetxtr">INSTANTLY</span>
+                </div>
+                <br>
+                <a class="homewhybtn" href="indexcca3.html?a=signup">Deposit</a>
+            </div>
+            <div class="homefebox post2 ">
+                <div class="homeplanico">
+                    <img src="{{ asset('front/images/p2.png') }}">
+                </div>
+                <br>
+                <span class="homefetit2">Advanced</span>
+                <div class="homefetit">2% Daily For 10 days</div>
+                <div class="homefetxt">
+                    <span class="homefetxtl">MIN:</span>
+                    <span class="homefetxtr">5,000 USD</span>
+                </div>
+                <div class="homefetxt">
+                    <span class="homefetxtl">MAX:</span>
+                    <span class="homefetxtr">9,999 USD</span>
+                </div>
+                <div class="homefetxt">
+                    <span class="homefetxtl">Referral Commission:</span>
+                    <span class="homefetxtr">10%</span>
+                </div>
+                <div class="homefetxt">
+                    <span class="homefetxtl">TOTAL ROI:</span>
+                    <span class="homefetxtr">20%</span>
+                </div>
+                <div class="homefetxt">
+                    <span class="homefetxtl">PAYMENTS:</span>
+                    <span class="homefetxtr">INSTANTLY</span>
+                </div>
+                <br>
+                <a class="homewhybtn" href="indexcca3.html?a=signup">Deposit</a>
+            </div>
+            <div class="homefebox post2 ">
+                <div class="homeplanico">
+                    <img src="{{ asset('front/images/p3.png') }}">
+                </div>
+                <br>
+                <span class="homefetit2">Premium </span>
+                <div class="homefetit">3% Daily For 10 days</div>
+                <div class="homefetxt">
+                    <span class="homefetxtl">MIN:</span>
+                    <span class="homefetxtr">10,000 USD</span>
+                </div>
+                <div class="homefetxt">
+                    <span class="homefetxtl">MAX:</span>
+                    <span class="homefetxtr">Unlimited</span>
+                </div>
+                <div class="homefetxt">
+                    <span class="homefetxtl">Referral Commission:</span>
+                    <span class="homefetxtr">10%</span>
+                </div>
+                <div class="homefetxt">
+                    <span class="homefetxtl">TOTAL ROI:</span>
+                    <span class="homefetxtr">30%</span>
+                </div>
+                <div class="homefetxt">
+                    <span class="homefetxtl">PAYMENTS:</span>
+                    <span class="homefetxtr">INSTANTLY</span>
+                </div>
+                <br>
+                <br>
+                <a class="homewhybtn" href="indexcca3.html?a=signup">Deposit</a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    </div>
+    <!--<div class="homeitembg2"><div class="homeitembg2img"><div class="container post "><div class="homeitembox2 heart"><div class="itemimg"><i class="far fa-calendar-alt"></i></div><div class="itemtit"> 2664</div><div class="itemtxt">Running Days</div></div><div class="homeitembox2 heart"><div class="itemimg"><i class="fas fa-signal"></i></div><div class="itemtit">9</div><div class="itemtxt">Visitors Online</div></div><div class="homeitembox2 heart"><div class="itemimg"><i class="fas fa-user-friends"></i></div><div class="itemtit"> 590</div><div class="itemtxt">Total Memebers</div></div><div class="homeitembox2 heart"><div class="itemimg"><i class="fab fa-btc"></i></div><div class="itemtit">$ 3225795.28</div><div class="itemtxt">Total Deposited</div></div><div class="homeitembox2 heart"><div class="itemimg"><i class="fab fa-btc"></i></div><div class="itemtit">$ 1215120.94</div><div class="itemtxt">Total Withdraw</div></div></div></div></div>-->
+    <div class="homehow">
+        <div class="homehowgrad">
+            <div class="homehowicobg post ">
+                <img class="heart2 imgblock" src="{{ asset('front/images/refbg.png') }}">
+            </div>
+            <div class="container ">
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="post">
+                    <div class="hometxt2">Affiliate Program</div>
+                    <div class="homeptit w"> Referral & Representative</div>
+                    <div class="homeptxt">You can get additional income from our affiliate program. .</div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="homerefbox post ">
+                    <div class="homerefbr">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="homereftit">10.00%</div>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="post">
+        <div class="homeptit2">Accepted Payment Gateways</div>
+    </div>
+    <br>
+    <div class="post9">
+        <img class="imgblock fpay" src="{{ asset('front/images/1.png') }}" title="PM"/>
+        <img class="imgblock fpay" src="{{ asset('front/images/3.png') }}" title="BTC"/>
+        <img class="imgblock fpay" src="{{ asset('front/images/5.png') }}" title="DOGE"/>
+        <img class="imgblock fpay" src="{{ asset('front/images/6.png') }}" title="ETH"/>
+        <img class="imgblock fpay" src="{{ asset('front/images/7.png') }}" title="BCH"/>
+        <img class="imgblock fpay" src="{{ asset('front/images/9.png') }}" title="DASH"/>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="post9">
+        <a class="paybtn" href="{{ route('register') }}">join us</a>
+    </div>
+    </div>
+    </div>
+    <div class="homehow">
+        <div class="homehowgrad homehowicobg2">
+            <br>
+            <br>
+            <br>
+            <div class="container2">
+                <div class="block1 ltr">
+                    <a class="trigger_popup_fricc homebtc post  hidden visible animated fadeIn">
+                        <img class="certimg imgblock animated infinite flash slower" src="{{ asset('front/images/uklogo2.png') }}" alt="">
+                    </a>
+                    <img class="post2 certimg imgblock hidden visible animated bounceIn full-visible" src="https://www.uid.admin.ch/Detail.aspx?uid_id=CHE-112.867.710" alt="">
+                </div>
+                <div class="block2 justify">
+                    <div class="post hidden visible animated fadeIn">
+                        <div class="hometxt2">Switzerland Corporation</div>
+                        <span class="hometxt1">Company Certificate</span>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="hometxt2about post9 hidden visible animated fadeInUp full-visible">
+                        Nordcaptals is a fully registered and licensed company in Switzerland. Nordcaptals is powered by the latest and most secure form of SSL data encryption to keep all your data and information safe and secure.
+
+                        <br>
+                        <br>
+                    </div>
+                    <br>
+                    <div class="homecertbg post9 hidden visible animated fadeInUp full-visible">
+                        <div class="homecertlb">
+                            <img class="imgblock" src="{{ asset('front/images/reg.png') }}" alt="">
                         </div>
-                        <div class="main-contest-box">
-                            <h2>Giveaway</h2>
-                            <p>Win prizes every month: Macbook Air,
-                                <br> iPhone 11 PRO Max, Apple Watch, iPad Pro</p>
-                            <div class="main-contest-pic"> <img src="assets/css/img/main/main-prize-2.png" alt="main prize"> </div>
-                            <div class="btn-row"> <a href="{{ route('giveaway') }}" class="ui white-orange shade button h-auto mw-200 upper">Learn more</a> </div>
-                        </div>
+                        <div class="homecerttit">Nordcaptals</div>
+                        <div class="homecerttxt">Company number CHE-112.867.710 </div>
                     </div>
+                    <br>
+                    <br>
+                    <br>
+{{--                    <a class="sbmt post9  hidden visible animated fadeInUp full-visible" href="https://www.uid.admin.ch/Detail.aspx?uid_id=CHE-112.867.710">--}}
+{{--                        <i class="fas fa-certificate"></i> View Certificate--}}
+{{--                    </a>--}}
                 </div>
-            </section>
-            <section class="section section_main-count wow">
-                <div class="wrapper">
-                    <ul class="main-count__list">
-                        <li class="main-count__item">
-                            <div class="main-count__numbers js-numbers js-count-animate" data-increment="17" data-local="traders.traders">1780</div>
-                            <div class="main-count__text">Active traders</div>
-                        </li>
-                        <li class="main-count__item">
-                            <div class="main-count__numbers js-numbers js-count-animate" data-increment="7200" data-local="traders.earned">1091234</div>
-                            <div class="main-count__text">USD earned</div>
-                        </li>
-                        <li class="main-count__item">
-                            <div class="main-count__numbers js-numbers js-count-animate" data-increment="18" data-local="traders.average">613</div>
-                            <div class="main-count__text">Trader's average income in USD</div>
-                        </li>
-                    </ul>
+                <br>
+                <br>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="container2">
+                <div class="sec-title text-center">
+                    <h3>Presentation Video</h3>
                 </div>
-            </section>
-        </main>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8dtV3k1jZlg" allowfullscreen="" style="width:100%; height:400px;"></iframe>
+                </div>
+            </div>
+        </div>
     </div>
 
 @endsection
-

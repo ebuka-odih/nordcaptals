@@ -16,18 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 //Trade route
 Route::view('/', 'pages.index')->name('index');
-Route::view('account-types', 'pages.account-types')->name('account_types');
-Route::view('funding-withdrawals-methods', 'pages.payment-method')->name('payment_method');
 Route::view('about', 'pages.about')->name('about');
-Route::view('faq', 'pages.faq')->name('faq');
-Route::view('platform', 'pages.platform')->name('platform');
-Route::view('advantages', 'pages.advantages')->name('advantages');
-Route::view('contest', 'pages.contest')->name('contest');
-Route::view('referral', 'pages.referral')->name('referral');
-Route::view('giveaway', 'pages.giveaway')->name('giveaway');
-Route::view('trading-assets', 'pages.trading-assets')->name('trading_assets');
-Route::view('terms', 'pages.terms')->name('terms');
-Route::view('policies', 'pages.policies')->name('policies');
+
 
 Route::get('contact','ContactFormController@create')->name('contact');
 Route::post('contact-us/store','ContactFormController@store')->name('contact.store');
