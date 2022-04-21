@@ -19,6 +19,7 @@ Route::view('/', 'pages.index')->name('index');
 Route::view('about', 'pages.about')->name('about');
 Route::view('faq', 'pages.faq')->name('faq');
 Route::view('rules', 'pages.rules')->name('rules');
+Route::view('contact-us', 'pages.contact')->name('contact');
 
 
 Route::get('contact','ContactFormController@create')->name('contact');

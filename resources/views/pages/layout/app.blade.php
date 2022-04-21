@@ -161,17 +161,17 @@
             <a href="{{ route('index') }}" class="active ">
                 <i class="fas fa-home"></i> Home
             </a>
-            <a href="index3898.html?a=cust&amp;page=about">
+            <a href="{{ route('about') }}">
                 <i class="fas fa-info-circle"></i> About us
             </a>
             <!-- <a href="?a=news"><i class="far fa-newspaper"></i> News</a>-->
-            <a href="index38cd.html?a=faq">
+            <a href="{{ route('faq') }}">
                 <i class="far fa-question-circle"></i> Faq
             </a>
-            <a href="indexa972.html?a=rules">
+            <a href="{{ route('rules') }}">
                 <i class="far fa-file-alt"></i> Rules
             </a>
-            <a href="index15a0.html?a=support">
+            <a href="{{ route('contact') }}">
                 <i class="fas fa-headset"></i> Support
             </a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -261,10 +261,7 @@
                     <a class="flink" href="{{ route('rules') }}">
                         <i class="fas fa-caret-right"></i> Rules
                     </a>
-                    <a class="flink" href="index56ca.html?a=news">
-                        <i class="fas fa-caret-right"></i> News
-                    </a>
-                    <a class="flink" href="index15a0.html?a=support">
+                    <a class="flink" href="{{ route('contact') }}">
                         <i class="fas fa-caret-right"></i> Support
                     </a>
                 </div>

@@ -52,7 +52,7 @@
                         <a href="{{ route('rules') }}">Rules</a>
                     </li>
                     <li>
-                        <a href="index15a0.html?a=support">Contact us</a>
+                        <a href="{{ route('contact') }}">Contact us</a>
                     </li>
                 </ul>
             </nav>

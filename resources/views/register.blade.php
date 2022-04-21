@@ -1,327 +1,268 @@
-<!doctype html>
 <html>
-
-<!-- Mirrored from crypto-minners.uk/?a=signup by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 18 Sep 2020 11:57:29 GMT -->
 <head>
-<meta charset="utf-8">
-<title>Airtrades</title>
-<link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="css/style.css"/>
-<link rel="stylesheet" type="text/css" href="css/animate.css"/>
-<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css"/>
-<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css"/>
-<script src='js/jquery-1.11.3.min.js'></script>
-<script src='js/wow.js'></script>
-<script type="text/javascript" src="js/time.js"></script>
-<script>
-    wow = new WOW();
-    wow.init();
-</script>
-<link rel="stylesheet" type="text/css" href="css/faq.css"/>
-<script type="text/javascript" src="js/faq.js"></script>
-<link rel="stylesheet" type="text/css" href="css/demo.css"/>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <!-- /Added by HTTrack -->
+    <!--StartofTawk.toScript-->
+    <script src="https://embed.tawk.to/_s/v4/app/625d36b405c/js/twk-main.js" charset="UTF-8" crossorigin="*"></script>
+    <script src="https://embed.tawk.to/_s/v4/app/625d36b405c/js/twk-vendor.js" charset="UTF-8" crossorigin="*"></script>
+    <script src="https://embed.tawk.to/_s/v4/app/625d36b405c/js/twk-chunk-vendors.js" charset="UTF-8" crossorigin="*"></script>
+    <script src="https://embed.tawk.to/_s/v4/app/625d36b405c/js/twk-chunk-common.js" charset="UTF-8" crossorigin="*"></script>
+    <script src="https://embed.tawk.to/_s/v4/app/625d36b405c/js/twk-runtime.js" charset="UTF-8" crossorigin="*"></script>
+    <script src="https://embed.tawk.to/_s/v4/app/625d36b405c/js/twk-app.js" charset="UTF-8" crossorigin="*"></script>
+    <script async="" src="https://embed.tawk.to/6189a5946bb0760a4941b7f8/default" charset="UTF-8" crossorigin="*"></script>
+    <script type="text/javascript"> var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date(); (function(){ var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0]; s1.async=true; s1.src='https://embed.tawk.to/6189a5946bb0760a4941b7f8/default'; s1.charset='UTF-8'; s1.setAttribute('crossorigin','*'); s0.parentNode.insertBefore(s1,s0); })(); </script>
+    <!--End of Tawk.to Script-->
+    <meta http-equiv="Content-Language" content="en-us">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Nordcaptals</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ asset('js/viewportchecker.js') }}"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery('.post').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
+                offset: 50
+            });
+        });
 
-   <style>
+        jQuery(document).ready(function() {
+            jQuery('.post1').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated zoomIn', // Class to add to the elements when they are visible
+                offset: 0
+            });
+        });
 
-  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #ffffff;
-    opacity: 1; /* Firefox */
-}
+        jQuery(document).ready(function() {
+            jQuery('.post2').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 50
+            });
+        });
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #ffffff;
-}
+        jQuery(document).ready(function() {
+            jQuery('.post3').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 100
+            });
+        });
 
-::-ms-input-placeholder { /* Microsoft Edge */
-    color: #ffffff;
-}
-  </style>
+        jQuery(document).ready(function() {
+            jQuery('.post4').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 150
+            });
+        });
 
-    <style>
-        .translated-ltr{margin-top:-5px;}
-        .translated-ltr{margin-top:-5px;}
-        .goog-te-banner-frame {display: none;margin-top:-20px;}
+        jQuery(document).ready(function() {
+            jQuery('.post5').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 200
+            });
+        });
 
-        .goog-logo-link {
-            display:none !important;
+        jQuery(document).ready(function() {
+            jQuery('.post6').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 250
+            });
+        });
+
+        jQuery(document).ready(function() {
+            jQuery('.post7').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 300
+            });
+        });
+        jQuery(document).ready(function() {
+            jQuery('.post8').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated fadeInDown', // Class to add to the elements when they are visible
+                offset: 100
+            });
+        });
+        jQuery(document).ready(function() {
+            jQuery('.post9').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated fadeInUp', // Class to add to the elements when they are visible
+                offset: 100
+            });
+        });
+    </script>
+    <script type="text/javascript" src="{{ asset('js/calc.js') }}"></script>
+    <link href="{{ asset('front/animate.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('front/style.css') }}" rel="stylesheet" type="text/css">
+    <link href="flaticon.html" rel="stylesheet" type="text/css">
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('.scrollup').fadeIn();
+                } else {
+                    $('.scrollup').fadeOut();
+                }
+            });
+
+            $('.scrollup').click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 600);
+                return false;
+            });
+
+        });
+    </script>
+    <script>
+        function clearText(theField)
+        {
+            if (theField.defaultValue == theField.value)
+                theField.value = '';
         }
 
-        .goog-te-gadget{
-            color: transparent !important;
+        function addText(theField)
+        {
+            if (theField.value == '')
+                theField.value = theField .defaultValue;
         }
-
-    </style>
-
-
+    </script>
 </head>
+<body class="loginpagebg animated fadeIn" topmargin="0">
+<center>
+    <div class="container">
+        <br>
+        <br>
+        <span class="logoicon">
+        <a href="{{ route('index') }}">
+            <h3>NordCaptals</h3>
+{{--            <img src="images/logo.png" alt="">--}}
+            </a>
+        </span>
+        <br>
+        <br>
+    </div>
 
-<body>
-@include('includes.nav')
-<div id="main-other">
-    <div id="sub-other">
-    	<div class="other-head">
-        	<h1>Create An Account</h1>
+    <div class="logopage loginimg">
+        <div class="container">
+            <div class="regborderf">
+                <div class="signboxtit">Create Account</div>
+                <form method="post" action="{{ route('register') }}" name="regform">
+                    @csrf
+                    <div class="regstepi">
+                        <i class="fas fa-info-circle"></i> Personal Information:
+                    </div>
+                    <table width="100%" border="0">
+                        <tbody>
+                        <tr>
+                            <td class="regbl editborder regbg">
+                                <p>Your Full Name:</p>
+                            </td>
+                            <td class="regbl editborder editbg2">
+                                <div class="input-container">
+                                    <i class="fa fa-user-circle icon"></i>
+                                    <input type="text" name="fullname" value="" class="inpts" size="30">
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div class="regstepa">
+                        <i class="far fa-user"></i> Account Information:
+                    </div>
+                    <table width="100%" border="0">
+                        <tbody>
+                        <tr>
+                            <td class="regbl editborder regbg">
+                                <p>Your Username:</p>
+                            </td>
+                            <td class="regbl editborder editbg2">
+                                <div class="input-container">
+                                    <i class="fa fa-user icon"></i>
+                                    <input type="text" name="username" value="" class="inpts" size="30">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="regbl editborder partbg1 regbg">
+                                <p>Your E-mail Address:</p>
+                            </td>
+                            <td class="regbl editborder editbg2">
+                                <div class="input-container">
+                                    <i class="fa fa-envelope icon"></i>
+                                    <input type="text" name="email" value="" class="inpts" size="30">
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="regbl editborder partbg1 regbg">
+                                <p>Your Password:</p>
+                            </td>
+                            <td class="editborder editbg2">
+                                <div class="input-container">
+                                    <i class="fa fa-key icon"></i>
+                                    <input type="password" name="password" value="" class="inpts keyboardInput inpts" size="30">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="regbl editborder regbg">
+                                <p>Retype Your Password:</p>
+                            </td>
+                            <td class="regbl editborder editbg2">
+                                <div class="input-container">
+                                    <i class="fa fa-key icon"></i>
+                                    <input type="password" name="password_confirmation" value="" class="inpts keyboardInput inpts" size="30">
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <table width="100%" border="0">
+                        <tbody>
+                        <tr>
+                            <td class="regbl regterm">
+                                <br>
+                                <br>
+                                <center>
+                                    <div class="radiobox">
+                                        <input type="radio" id="radio-1" name="agree" value="1" class="">
+                                        <label for="radio-1" class="radio-label">I have read and agreed with
+                                            <a href="indexa972.html?a=rules">Terms and conditions</a>
+                                        </label>
+                                    </div>
+                                </center>
+                                <center>
+                                    <div class="regtxt">
+                                        <div class="regsidetit">Your Upline:
+                                            <br>
+                                            <span class="regsidetxt">  ()</span>
+                                        </div>
+                                    </div>
+                                </center>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <br>
+                    <input type="submit" value="Create Account" class="sbmt">
+                    <br>
+                    <br>
+                </form>
+            </div>
+            <br>
+            <br>
         </div>
     </div>
-</div>
-<div id="pagesbg">
-	<div id="sub-pagesbg">
-
-
-
-
-
- <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script language=javascript>
- function checkform() {
-  if (document.regform.fullname.value == '') {
-    alert("Please enter your full name!");
-    document.regform.fullname.focus();
-    return false;
-  }
-
-
-  if (document.regform.username.value == '') {
-    alert("Please enter your username!");
-    document.regform.username.focus();
-    return false;
-  }
-  if (document.regform.password.value == '') {
-    alert("Please enter your password!");
-    document.regform.password.focus();
-    return false;
-  }
-  if (document.regform.password.value != document.regform.password2.value) {
-    alert("Please check your password!");
-    document.regform.password2.focus();
-    return false;
-  }
-
-
-  if (document.regform.email.value == '') {
-    alert("Please enter your e-mail address!");
-    document.regform.email.focus();
-    return false;
-  }
-  if (document.regform.email.value != document.regform.email1.value) {
-    alert("Please retupe your e-mail!");
-    document.regform.email.focus();
-    return false;
-  }
-  if (document.regform.agree.checked == false) {
-    alert("You have to agree with the Terms and Conditions!");
-    return false;
-  }
-  return true;
- }
-
- function IsNumeric(sText) {
-  var ValidChars = "0123456789";
-  var IsNumber=true;
-  var Char;
-  if (sText == '') return false;
-  for (i = 0; i < sText.length && IsNumber == true; i++) {
-    Char = sText.charAt(i);
-    if (ValidChars.indexOf(Char) == -1) {
-      IsNumber = false;
-    }
-  }
-  return IsNumber;
- }
- </script>
-
-
-   <ul style="color:red">
-
-
-
-
-
-
-
-   <br>
-    </ul>
-
-
-{{--                @if ($errors->any())--}}
-{{--               <div style="margin-bottom: 5px" class="container">--}}
-{{--                <div class="alert-message">--}}
-{{--                    <span><strong style="color: white">Some Errors Prevented Your Form From Submitting</strong></span>--}}
-{{--                    @foreach ($errors->all() as $error)--}}
-{{--                        <li style="color: lightcoral">{{ $error }}</li>--}}
-{{--                    @endforeach--}}
-{{--                </div>--}}
-{{--                @endif--}}
-
-        <form method="POST" action="{{ route('register') }}">
-            @csrf
-
-
-    	<div class="left-box">
-            <div class="box-head">
-            	<h4>Account Information</h4>
-            </div>
-            <div class="all-types">
-            	<div class="boxes">
-                    <div class="info-one">
-                    	<div class="info-icon">
-                        	<img src="images/user.png">
-                        </div>
-                        <div class="info-type">
-                            <input placeholder="First Name" id="first_name" type="text" class="form-control @error('first_name') is-invalid @enderror" name="first_name" value="{{ old('first_name') }}" required autocomplete="first_name" autofocus>
-                           <br>
-                            @error('first_name')
-                            <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                            @enderror
-                        </div>
-                    </div>
-                    <div class="info-one">
-                    	<div class="info-icon">
-                        	<img src="images/user.png">
-                        </div>
-                        <div class="info-type">
-                            <input placeholder="Last Name" id="last_name" type="text" class="form-control @error('last_name') is-invalid @enderror" name="last_name" value="{{ old('last_name') }}" required autocomplete="on" autofocus>
-                            <br>
-                            @error('last_name')
-                            <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                            @enderror
-                        </div>
-                    </div>
-                    <div class="info-one">
-                        <div class="info-icon">
-                            <img src="images/user.png">
-                        </div>
-                        <div class="info-type">
-                            <input placeholder="Username" id="username" type="text" class="form-control @error('username') is-invalid @enderror" name="username" value="{{ old('username') }}" required autocomplete="off" autofocus>
-                            <br>
-                            @error('username')
-                            <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                            @enderror
-                        </div>
-                    </div>
-
-                    <div class="info-one">
-
-                        <div class="info-icon">
-                            <img src="images/mail.png">
-                        </div>
-                        <div class="info-type">
-
-                            <input style="width: 30em; height: 30px;" placeholder="Enter Email Address" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
-                            <br>
-                            @error('email')
-                            <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                            @enderror
-                        </div>
-                    </div>
-                    <div class="info-one">
-                    	<div class="info-icon">
-                        	<img src="images/pass.png">
-                        </div>
-                        <div class="info-type">
-                            <input placeholder="Enter Password" id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
-                            <br>
-                            @error('password')
-                            <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                            @enderror
-                        </div>
-                    </div>
-                    <div class="info-one">
-                    	<div class="info-icon">
-                        	<img src="images/pass.png">
-                        </div>
-                        <div class="info-type">
-                            <input id="password-confirm" type="password" placeholder="Confirm Password" class="form-control" name="password_confirmation" required autocomplete="new-password">
-
-                        </div>
-                    </div>
-
-                    <div class="info-one">
-                    	<div class="info-icon">
-                        	<img src="images/sq.png">
-                        </div>
-                        <div class="info-type">
-{{--                        	<input type="text" placeholder="Secret Question" name='secret_question' >--}}
-                            <select style="width: 26em"   name="secret_question" id="">
-                                <option  selected>Pick Secret Questiion</option>
-                                <option value="que1">What was your childhood nickname?</option>
-                                <option value="que2">In what city did you meet your spouse/significant other?</option>
-                                <option value="que3">What is the name of your favorite childhood friend?</option>
-                                <option value="que4">What is your oldest sibling’s birthday month and year? (e.g., January 1900)</option>
-                                <option value="que5">What is the middle name of your oldest child?</option>
-                                <option value="que6">What is your oldest sibling's middle name?</option>
-                                <option value="que7">What school did you attend for sixth grade?</option>
-                                <option value="que8">What is your oldest cousin's first and last name?</option>
-                                <option value="que9">What was the name of your first stuffed animal?</option>
-                                <option value="que10">In what city or town did your mother and father meet?</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="info-one">
-                    	<div class="info-icon">
-                        	<img src="images/sa.png">
-                        </div>
-                        <div class="info-type">
-                        	<input type="text" placeholder="Secret Answer" name='answer'>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="right-box">
-            <div class="box-head">
-            	<h4>Payment Information</h4>
-            </div>
-            <div class="all-types">
-            	<div class="boxes">
-
-                    <div class="info-one">
-                        <div class="info-icon">
-                        	<img src="images/dolar.png">
-                        </div>
-                        <div class="info-type">
-                        	<input type="text" placeholder="Bitcoin Account" name="btc_wallet" required value="{{ old('btc_wallet') }}">
-                        </div>
-                    </div>
-
-
-                    <div class="complete">
-                        <div class="check-text">
-                            <div class="check-box">
-                                <input required type="checkbox" name=agree value=1  />
-                            </div>
-                            <div class="agree">
-                                <p>I agree to the <span><a target="_blank" href="{{ route('rules') }}">  terms and conditions of Service</a></span></p>
-                            </div>
-                        </div>
-                        <div class="regis-now">
-                            <input type="submit" value="REGISTER NOW">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-</form></div>
-</div>
-</div>
-@include('includes.footer')
-<script src='js/demo.js'></script>
-<!--Start of Tawk.to Script-->
-
-<!--End of Tawk.to Script-->
+    <br>
+    <center>
+        <span class="ftxt">© Nordcaptals 2021.All rights reserved.</span>
+    </center>
+    <br>
+    <br>
+    <br>
+</center>
+<script async="" charset="UTF-8" src="https://embed.tawk.to/_s/v4/app/625d36b405c/languages/en.js"></script>
 </body>
-<!----AA290 VISUALHYIP.COM---->
-
-<!-- Mirrored from crypto-minners.uk/?a=signup by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 18 Sep 2020 11:57:33 GMT -->
 </html>

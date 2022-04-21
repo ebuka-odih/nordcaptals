@@ -120,10 +120,10 @@
                     </span>
             </div>
             <div class="logorb">
-                <a class="logobtn2 animated bounceInDown" href="indexc30b.html?a=login">
+                <a class="logobtn2 animated bounceInDown" href="{{ route('login') }}">
                     <i class="fas fa-sign-in-alt"></i> Login
                 </a>
-                <a class="logobtn animated bounceInDown slow" href="indexcca3.html?a=signup">
+                <a class="logobtn animated bounceInDown slow" href="{{ route('register') }}">
                     <i class="far fa-user"></i> Sign Up
                 </a>
             </div>
@@ -154,7 +154,7 @@
                         <a href="{{ route('rules') }}">Rules</a>
                     </li>
                     <li>
-                        <a href="index15a0.html?a=support">Contact us</a>
+                        <a href="{{ route('contact') }}">Contact us</a>
                     </li>
                 </ul>
             </nav>
@@ -174,10 +174,10 @@
             <br>
             <br>
             <br>
-            <a class="logologin animated bounceInUp slow" href="indexcca3.html?a=signup">
+            <a class="logologin animated bounceInUp slow" href="{{ route('register') }}">
                 <i class="far fa-user"></i> Create Account
             </a>
-            <a class="logoabout animated bounceInUp slower" href="index3898.html?a=cust&amp;page=about">
+            <a class="logoabout animated bounceInUp slower" href="{{ route('about') }}">
                 <i class="fas fa-play"></i> About us
             </a>
         </div>

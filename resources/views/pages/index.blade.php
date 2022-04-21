@@ -126,7 +126,7 @@
                 <br>
                 <br>
                 <br>
-                <a class="sbmt" href="index3898.html?a=cust&amp;page=about">
+                <a class="sbmt" href="{{ route('about') }}">
                     <i class="fas fa-long-arrow-alt-right"></i> About us
                 </a>
             </div>
