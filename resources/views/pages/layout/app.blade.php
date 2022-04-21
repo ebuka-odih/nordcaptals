@@ -258,7 +258,7 @@
                     <a class="flink" href="{{ route('register') }}">
                         <i class="fas fa-caret-right"></i> Sign up
                     </a>
-                    <a class="flink" href="indexa972.html?a=rules">
+                    <a class="flink" href="{{ route('rules') }}">
                         <i class="fas fa-caret-right"></i> Rules
                     </a>
                     <a class="flink" href="index56ca.html?a=news">

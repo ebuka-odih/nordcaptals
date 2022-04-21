@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'pages.index')->name('index');
 Route::view('about', 'pages.about')->name('about');
 Route::view('faq', 'pages.faq')->name('faq');
+Route::view('rules', 'pages.rules')->name('rules');
 
 
 Route::get('contact','ContactFormController@create')->name('contact');

@@ -49,10 +49,7 @@
                         <a href="{{ route('faq') }}">faq</a>
                     </li>
                     <li>
-                        <a href="index56ca.html?a=news">news</a>
-                    </li>
-                    <li>
-                        <a href="indexa972.html?a=rules">Rules</a>
+                        <a href="{{ route('rules') }}">Rules</a>
                     </li>
                     <li>
                         <a href="index15a0.html?a=support">Contact us</a>
