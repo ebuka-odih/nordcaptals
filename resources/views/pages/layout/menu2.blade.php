@@ -43,10 +43,10 @@
 								</li>
 							</span>
                     <li>
-                        <a href="index3898.html?a=cust&amp;page=about">About us</a>
+                        <a href="{{ route('about') }}">About us</a>
                     </li>
                     <li>
-                        <a href="index38cd.html?a=faq">faq</a>
+                        <a href="{{ route('faq') }}">faq</a>
                     </li>
                     <li>
                         <a href="index56ca.html?a=news">news</a>

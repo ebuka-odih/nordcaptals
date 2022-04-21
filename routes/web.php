@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 //Trade route
 Route::view('/', 'pages.index')->name('index');
 Route::view('about', 'pages.about')->name('about');
+Route::view('faq', 'pages.faq')->name('faq');
 
 
 Route::get('contact','ContactFormController@create')->name('contact');

@@ -139,7 +139,7 @@
                 <ul>
                         <span class="navhomeinv">
                             <li class="current">
-                                <a href="indexbc14.html?a=home">
+                                <a href="{{ route('index') }}">
                                     <i class="fas fa-home"></i>
                                 </a>
                             </li>
@@ -148,7 +148,7 @@
                         <a href="{{ route('about') }}">About us</a>
                     </li>
                     <li>
-                        <a href="index38cd.html?a=faq">faq</a>
+                        <a href="{{ route('faq') }}">faq</a>
                     </li>
                     <li>
                         <a href="index56ca.html?a=news">news</a>
