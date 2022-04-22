@@ -14,17 +14,17 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        $admin = User::where('email', '=', 'admin@sam-trader.com')->first();
+        $admin = User::where('email', '=', 'admin@nordcaptals.com')->first();
         if($admin === null){
             DB::table('users')->insert([
-                'first_name' => 'Sam',
-                'last_name' => 'Trader',
+                'first_name' => 'Nord',
+                'last_name' => 'Captals',
                 'status' => 2,
                 'username' =>'admin',
                 'user_role' => 'admin',
-                'email' => 'admin@sam-trader.com',
+                'email' => 'admin@nordcaptals.com',
                 'email_verified_at' => \Carbon\Carbon::now(),
-                'password' => Hash::make('JDhBcUKX9RUcu2'),
+                'password' => Hash::make('NORDCapBcUKX9RUc'),
 
             ]);
         }

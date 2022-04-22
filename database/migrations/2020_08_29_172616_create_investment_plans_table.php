@@ -17,7 +17,7 @@ class CreateInvestmentPlansTable extends Migration
             $table->id();
             $table->timestamps();
             $table->string('name');
-            $table->float('daily_interest');
+            $table->decimal('daily_interest');
             $table->integer('term_days');
             $table->decimal('min_deposit', 10);
             $table->decimal('max_deposit', 10);
