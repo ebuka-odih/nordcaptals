@@ -28,7 +28,7 @@ Route::post('contact-us/store','ContactFormController@store')->name('contact.sto
 
 
 Auth::routes(['verify' => true]);
-Route::group(['middleware' => ['auth', 'verified'], 'prefix' => 'user', 'as' => 'user.'], function(){
+Route::group(['middleware' => ['auth'], 'prefix' => 'user', 'as' => 'user.'], function(){
 
     Route::get('/home', 'HomeController@index')->name('home');
     Route::get('dashboard', 'UserController@dashboard')->name('user_dashboard');
