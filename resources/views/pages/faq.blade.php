@@ -112,7 +112,8 @@
                         <i class="fas fa-long-arrow-alt-right"></i> What is the business of the Nordcaptals, and does it have official registration?
                     </div>
                     <div class="faq_answer_container">
-                        <div class="faq_answer">Nordcaptals is a Switzerland investment company with company Number CHE-112.867.710. We conduct fully legal activities and are engaged in trading in real estate, agriculture and the cryptocurrency market.
+                        <div class="faq_answer">
+                            Nordcaptals is a subsidiary of nordgold. A gold mining company and also into crypto mining. We are into gold mining, real estate  and crypto currency investment
                             <br>
                             <br>
                         </div>
@@ -172,7 +173,7 @@
                         <i class="fas fa-long-arrow-alt-right"></i> Do you have any limits for an investment amount?
                     </div>
                     <div class="faq_answer_container">
-                        <div class="faq_answer">The minimum investment amount is only $100 and the maximum amount is Unlimited per transaction.
+                        <div class="faq_answer">The minimum investment amount is only $50 and the maximum amount is Unlimited per transaction.
 
                             <br>
                             <br>
@@ -197,7 +198,8 @@
                         <i class="fas fa-long-arrow-alt-right"></i> How long does it take for the withdrawals to complete?
                     </div>
                     <div class="faq_answer_container">
-                        <div class="faq_answer">Payments are made instantly. 7 days a week.
+                        <div class="faq_answer">
+                            Payments are made instantly after withdrawals.
                             <br>
                             <br>
                         </div>

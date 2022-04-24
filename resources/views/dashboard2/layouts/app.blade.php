@@ -43,7 +43,7 @@
         <!-- Brand -->
         <div class="sidenav-header d-flex align-items-center">
             <a class="navbar-brand" href="{{ route('index') }}">
-                <h2 style="color: white; font-size: 18px; font-weight: bold">Sam-Trader</h2>
+                <h2 style="color: white; font-size: 18px; font-weight: bold">NordCaptals</h2>
 {{--                <img src="{{ asset('assets/logo.png') }}" class="navbar-brand-img" alt="...">--}}
             </a>
             <div class="ml-auto">

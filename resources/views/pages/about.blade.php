@@ -24,9 +24,8 @@
             <br>
             <br>
             <div class="hometxt2about post9 hidden visible animated fadeInUp">
-                Nordcaptals group is a global conglomerate made up of subsidiaries which provide life changing opportunities through a wide range of economic developing services.
-                Nordcaptals Group is widely considered as one of the largest and most experienced leaders of global private equity investments and tracks a wide range of related investments including,real estate,stock exchange, oil sector, agriculture, healthcare, construction and most of all cryptocurrency.
-
+                Nordcaptals is a crypto mining firm and a subsidiary of a well known Russian gold mining company.Nordgold is an independent international gold mining company founded in 2007
+                Nordgold is an international gold mining company Nordgold’s mission is to provide forward growth for the business and value to its shareholders and all other investors. But for us, success is about more than just gold.Our values run deeper than effective gold production. Nordgold operates 9 mines in four countries – Russia, Kazakhstan, Burkina Faso and Guinea.Nordgold has several prospective projects in feasibility study, advanced and early exploration phases in Burkina Faso, Russia, French Guiana and Canada.
 
                 <br>
                 <br>
@@ -47,11 +46,11 @@
                 <br>
                 <br>
                 <span class="hometxt1">OUR GOAL</span>
-                <p>Our goal at Abalis remains honest and unchanged.
+                <p>Our goal at Nordcaptals remains honest and unchanged.
                     To acquire assets at the minimum cost, and sell at the maximum, but at the same time we must not forget about the trend of rapid volatility of quotations,which is most especially a characteristic of this market.</p>
                 <p>
                     This, on one hand is an advantage for quick transactions and rapid increase in the deposit, but on the other hand, it implies high risks of loss of investments.
-                    Unlike traditional exchanges, where large investments are required to generate tangible profits, with Abalis even a minimal deposit in cryptocurrency trading can become the basis for the accumulation of significant income. </p>
+                    Unlike traditional exchanges, where large investments are required to generate tangible profits, with Nordcaptals even a minimal deposit in cryptocurrency trading can become the basis for the accumulation of significant income. </p>
                 <br>
                 <br>
                 <span class="hometxt1">OUR FOUNDATION</span>
@@ -63,7 +62,7 @@
                 <p>
                     This uncommon but ethical approach to financial management fundamentally factors and establish basis for the stable operation of the company and the outright success of all transactions which simply ensures guaranteed profit for each investor. Several investment plans developed by our specialists, allow us to determine in advance the desired level of profitability and the size of the initial investment.  </p>
                 <br>
-                <p>digital currency investments within Abalis is indeed a  safe and stress free means to increase capital as we are always ready to provide necessary support to everyone who is interested in making fruitful investments.</p>
+                <p>digital currency investments within Nordcaptals is indeed a  safe and stress free means to increase capital as we are always ready to provide necessary support to everyone who is interested in making fruitful investments.</p>
             </div>
             <br>
             <br>

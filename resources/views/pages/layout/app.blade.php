@@ -237,8 +237,8 @@
             <div class="container" align="center">
                 <div class="footerblock">
                     <a href="{{ route('index') }}">
-                        <h3>NordCaptals</h3>
-{{--                        <img class="imgblock" src="images/logo.png">--}}
+{{--                        <h3>NordCaptals</h3>--}}
+                        <img height="100" width="200" class="imgblock" src="{{ asset('logo.jpeg') }}">
                     </a>
                     <br>
                     <div class="fbltxt">By carrying out successful transactions on the cryptocurrency exchange, traders and investors have the opportunity to receive income that is characterized by stability and significance.</div>

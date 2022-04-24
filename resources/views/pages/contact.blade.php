@@ -57,17 +57,10 @@
 <div class="logopage loginimg">
     <div class="container">
         <div class="supbox post delay-1s hidden visible animated fadeIn">
-            <img src="images/fo-email.png" class="imgblock">
+            <img src="{{ asset('front/images/fo-email.png') }}" class="imgblock">
             <br>
             <div class="supboxtit">E-mail</div>
             <a href="mailto:support@nordcaptals.com" target="_blank">support@nordcaptals.com</a>
-
-        </div>
-        <div class="supbox post delay-2s hidden visible animated fadeIn">
-            <img src="images/fo-cert.png" class="imgblock">
-            <br>
-            <div class="supboxtit">Company Number</div>
-            CHE-112.867.710
 
         </div>
         <div class="supbox post delay-3s hidden visible animated fadeIn">

@@ -11,9 +11,9 @@ class AbstractController extends Controller
     public function homepage()
     {
         $invest_plans = InvestmentPlan::all();
-        $withdrawal = Withdraw::all()->random(1);
+//        $withdrawal = Withdraw::all()->random(1);
 //        $withdrawal = Withdraw::shuffle()->get();
-        return view('pages.index', compact('invest_plans', 'withdrawal'));
+        return view('pages.index', compact('invest_plans'));
     }
 
     public function terms()

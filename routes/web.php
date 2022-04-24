@@ -15,7 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 
 //Trade route
-Route::view('/', 'pages.index')->name('index');
+//Route::view('/', 'pages.index')->name('index');
+Route::get('/', 'AbstractController@homepage')->name('index');
+
 Route::view('about', 'pages.about')->name('about');
 Route::view('faq', 'pages.faq')->name('faq');
 Route::view('rules', 'pages.rules')->name('rules');
@@ -24,7 +26,6 @@ Route::view('contact-us', 'pages.contact')->name('contact');
 
 Route::get('contact','ContactFormController@create')->name('contact');
 Route::post('contact-us/store','ContactFormController@store')->name('contact.store');
-//Route::get('/', 'AbstractController@homepage')->name('homepage');
 
 
 Auth::routes(['verify' => true]);

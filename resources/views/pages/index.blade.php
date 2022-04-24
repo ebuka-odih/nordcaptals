@@ -111,12 +111,11 @@
                 <div class="logosplit"></div>
                 <br>
                 <div class="hometxt2about w">
-                    By carrying out successful transactions on the cryptocurrency exchange, traders and investors have the opportunity to receive income that is characterized by stability and significance. However, it is pointless to count on success in trading if a trader is not guided by the peculiarities of the cryptocurrency market, which has important differences from other markets.
-
+                    Nordcaptals is a crypto mining firm and a subsidiary of a well known Russian gold mining company.Nordgold is an independent international gold mining company founded in 2007
                     <br>
                     <br>
 
-                    The main task of Nordcaptals remains unchanged to acquire assets at the minimum cost, and sell at the maximum, but at the same time we must not forget about the trend of rapid volatility of quotations, in other words, its volatility, which is especially characteristic of this market. This, on the one hand, is an advantage for quick transactions and rapid increase in the deposit, but on the other hand, it implies high risks of losing investments. Unlike traditional exchanges, where large investments are required to generate tangible profits, even a minimal deposit in cryptocurrency trading can become the basis for the accumulation of significant income.
+                    Nordgold is an international gold mining company Nordgold’s mission is to provide forward growth for the business and value to its shareholders and all other investors. But for us, success is about more than just gold.Our values run deeper than effective gold production. Nordgold operates 9 mines in four countries – Russia, Kazakhstan, Burkina Faso and Guinea.Nordgold has several prospective projects in feasibility study, advanced and early exploration phases in Burkina Faso, Russia, French Guiana and Canada.
 
                 </div>
                 <br>
@@ -165,20 +164,21 @@
             </div>
             <br>
             <br>
+            @foreach($invest_plans as $item)
             <div class="homefebox post2">
                 <div class="homeplanico">
                     <img src="{{ asset('front/images/p1.png') }}">
                 </div>
                 <br>
-                <span class="homefetit2">Starter</span>
-                <div class="homefetit">1.5% Daily For 10 days</div>
+                <span class="homefetit2">{{ $item->name }}</span>
+                <div class="homefetit">{{ $item->daily_interest }}% Daily For {{ $item->term_days }} days</div>
                 <div class="homefetxt">
                     <span class="homefetxtl">MIN:</span>
-                    <span class="homefetxtr">100 USD</span>
+                    <span class="homefetxtr">{{ $item->min_deposit }} USD</span>
                 </div>
                 <div class="homefetxt">
                     <span class="homefetxtl">MAX:</span>
-                    <span class="homefetxtr">4,999 USD</span>
+                    <span class="homefetxtr">{{ $item->max_deposit }} USD</span>
                 </div>
                 <div class="homefetxt">
                     <span class="homefetxtl">Referral Commission:</span>
@@ -186,76 +186,17 @@
                 </div>
                 <div class="homefetxt">
                     <span class="homefetxtl">TOTAL ROI:</span>
-                    <span class="homefetxtr">15%</span>
+                    <span class="homefetxtr">{{ $item->total_return() }}%</span>
                 </div>
                 <div class="homefetxt">
                     <span class="homefetxtl">PAYMENTS:</span>
                     <span class="homefetxtr">INSTANTLY</span>
                 </div>
                 <br>
-                <a class="homewhybtn" href="indexcca3.html?a=signup">Deposit</a>
+                <a class="homewhybtn" href="{{ route('user.user_deposits') }}">Deposit</a>
             </div>
-            <div class="homefebox post2 ">
-                <div class="homeplanico">
-                    <img src="{{ asset('front/images/p2.png') }}">
-                </div>
-                <br>
-                <span class="homefetit2">Advanced</span>
-                <div class="homefetit">2% Daily For 10 days</div>
-                <div class="homefetxt">
-                    <span class="homefetxtl">MIN:</span>
-                    <span class="homefetxtr">5,000 USD</span>
-                </div>
-                <div class="homefetxt">
-                    <span class="homefetxtl">MAX:</span>
-                    <span class="homefetxtr">9,999 USD</span>
-                </div>
-                <div class="homefetxt">
-                    <span class="homefetxtl">Referral Commission:</span>
-                    <span class="homefetxtr">10%</span>
-                </div>
-                <div class="homefetxt">
-                    <span class="homefetxtl">TOTAL ROI:</span>
-                    <span class="homefetxtr">20%</span>
-                </div>
-                <div class="homefetxt">
-                    <span class="homefetxtl">PAYMENTS:</span>
-                    <span class="homefetxtr">INSTANTLY</span>
-                </div>
-                <br>
-                <a class="homewhybtn" href="indexcca3.html?a=signup">Deposit</a>
-            </div>
-            <div class="homefebox post2 ">
-                <div class="homeplanico">
-                    <img src="{{ asset('front/images/p3.png') }}">
-                </div>
-                <br>
-                <span class="homefetit2">Premium </span>
-                <div class="homefetit">3% Daily For 10 days</div>
-                <div class="homefetxt">
-                    <span class="homefetxtl">MIN:</span>
-                    <span class="homefetxtr">10,000 USD</span>
-                </div>
-                <div class="homefetxt">
-                    <span class="homefetxtl">MAX:</span>
-                    <span class="homefetxtr">Unlimited</span>
-                </div>
-                <div class="homefetxt">
-                    <span class="homefetxtl">Referral Commission:</span>
-                    <span class="homefetxtr">10%</span>
-                </div>
-                <div class="homefetxt">
-                    <span class="homefetxtl">TOTAL ROI:</span>
-                    <span class="homefetxtr">30%</span>
-                </div>
-                <div class="homefetxt">
-                    <span class="homefetxtl">PAYMENTS:</span>
-                    <span class="homefetxtr">INSTANTLY</span>
-                </div>
-                <br>
-                <br>
-                <a class="homewhybtn" href="indexcca3.html?a=signup">Deposit</a>
-            </div>
+            @endforeach
+
             <br>
             <br>
             <br>
@@ -306,7 +247,6 @@
     </div>
     <br>
     <div class="post9">
-        <img class="imgblock fpay" src="{{ asset('front/images/1.png') }}" title="PM"/>
         <img class="imgblock fpay" src="{{ asset('front/images/3.png') }}" title="BTC"/>
         <img class="imgblock fpay" src="{{ asset('front/images/5.png') }}" title="DOGE"/>
         <img class="imgblock fpay" src="{{ asset('front/images/6.png') }}" title="ETH"/>
@@ -335,13 +275,13 @@
                 </div>
                 <div class="block2 justify">
                     <div class="post hidden visible animated fadeIn">
-                        <div class="hometxt2">Switzerland Corporation</div>
+                        <div class="hometxt2">Russia Corporation</div>
                         <span class="hometxt1">Company Certificate</span>
                     </div>
                     <br>
                     <br>
                     <div class="hometxt2about post9 hidden visible animated fadeInUp full-visible">
-                        Nordcaptals is a fully registered and licensed company in Switzerland. Nordcaptals is powered by the latest and most secure form of SSL data encryption to keep all your data and information safe and secure.
+                        Nordcaptals is a fully registered and licensed company in Russia. Nordcaptals is powered by the latest and most secure form of SSL data encryption to keep all your data and information safe and secure.
 
                         <br>
                         <br>
@@ -364,18 +304,7 @@
                 <br>
                 <br>
             </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="container2">
-                <div class="sec-title text-center">
-                    <h3>Presentation Video</h3>
-                </div>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8dtV3k1jZlg" allowfullscreen="" style="width:100%; height:400px;"></iframe>
-                </div>
-            </div>
+
         </div>
     </div>
 

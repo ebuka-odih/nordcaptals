@@ -5,7 +5,9 @@
 				<span class="logoicon">
 					<a href="{{ route('index') }}">
 {{--						<img src="images/logo.png" alt="">--}}
-                        <h3>NordCaptals</h3>
+{{--                        <h3>NordCaptals</h3>--}}
+                        <img height="90" width="200" src="{{ asset('logo.jpeg') }}" alt=""/>
+
 						</a>
 					</span>
             </div>

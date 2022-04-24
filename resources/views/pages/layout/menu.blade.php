@@ -114,8 +114,8 @@
             <div class="logolb animated zoomIn  ">
                     <span class="logoicon">
                         <a  href="{{ route('index') }}">
-                            <h3>NordCaptals</h3>
-{{--                            <img src="images/logo.png" alt=""/>--}}
+{{--                            <h3>NordCaptals</h3>--}}
+                            <img height="100" width="200" src="{{ asset('logo.jpeg') }}" alt=""/>
                         </a>
                     </span>
             </div>
