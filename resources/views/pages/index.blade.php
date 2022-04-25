@@ -289,10 +289,9 @@
                     <br>
                     <div class="homecertbg post9 hidden visible animated fadeInUp full-visible">
                         <div class="homecertlb">
-                            <img class="imgblock" src="{{ asset('front/images/reg.png') }}" alt="">
+                            <img class="imgblock" src="{{ asset('img/cert.jpeg') }}" alt="">
                         </div>
                         <div class="homecerttit">Nordcaptals</div>
-                        <div class="homecerttxt">Company number CHE-112.867.710 </div>
                     </div>
                     <br>
                     <br>

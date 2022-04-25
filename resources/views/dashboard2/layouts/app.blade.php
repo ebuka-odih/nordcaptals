@@ -25,9 +25,6 @@
     <link rel="stylesheet" href="{{ asset('front/asset/dashboard/vendor/%40fortawesome/fontawesome-free/css/all.min.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('front/asset/dashboard/css/argon9f1e.css?v=1.1.0') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('front/asset/frontend/css/sweetalert.css') }}" type="text/css">
-    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="4b3fb2fe-bca8-4cb2-b542-3175264b0e1a";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
-
-    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="4b3fb2fe-bca8-4cb2-b542-3175264b0e1a";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 {{--    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>--}}

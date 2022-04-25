@@ -273,7 +273,7 @@
 
                     </div>
                     <div class="fbltxt">
-                        <i class="fas fa-map-marker-alt"></i>Hauptstrasse 67, 4102 Binningen, Switzerland
+                        <i class="fas fa-map-marker-alt"></i>Tverskaya st. 13 Moscow, Russia
                     </div>
                     <br>
                 </div>

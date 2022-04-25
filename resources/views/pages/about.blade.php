@@ -124,13 +124,13 @@
             </div>
             <div class="block2 justify">
                 <div class="post hidden">
-                    <div class="hometxt2">Switzerland Corporation</div>
+                    <div class="hometxt2">Russia Corporation</div>
                     <span class="hometxt1">Company Certificate</span>
                 </div>
                 <br>
                 <br>
                 <div class="hometxt2about post9 hidden">
-                    Nordcaptals is a fully registered and licensed company in Switzerland. Nordcaptals is powered by the latest and most secure form of SSL data encryption to keep all your data and information safe and secure.
+                    Nordcaptals is a fully registered and licensed company in Russia. Nordcaptals is powered by the latest and most secure form of SSL data encryption to keep all your data and information safe and secure.
 
 
                     <br>
