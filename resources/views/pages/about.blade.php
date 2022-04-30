@@ -138,11 +138,11 @@
                 </div>
                 <br>
                 <div class="homecertbg post9 hidden">
-                    <div class="homecertlb">
-                        <img class="imgblock" src="{{ asset('front/images/reg.png') }}" alt="">
+                    <div style="padding: 10px" class="homecertlb">
+                        <img class="imgblock" src="{{ asset('img/ceo.jpeg') }}" alt="">
                     </div>
                     <div class="homecerttit">Nordcaptals</div>
-                    <div class="homecerttxt">Company number CHE-112.867.710 </div>
+                    <div class="homecerttxt">Alexey Alexandrovich Mordashov (Russian: Алексей Александрович Мордашов; born 26 September 1965) is a Russian billionaire businessman. He is the main shareholder and chairman. </div>
                 </div>
                 <br>
                 <br>
