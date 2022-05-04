@@ -288,7 +288,6 @@
         </div>
     </center>
 
-    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="8d1c80e0-58f5-47b0-83c2-efb32b6301bb";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
-
+    <script src="//code.jivosite.com/widget/hTaNQE0Pjq" async></script>
 </body>
 </html>
