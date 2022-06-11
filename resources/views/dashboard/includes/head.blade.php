@@ -17,6 +17,7 @@
     <script type="text/javascript" src="{{ asset('js/faq.js') }}"></script>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/demo.css') }}"/>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/button.css') }}"/>
+    <script src="//code.tidio.co/twm8xiunhuzlf1vj67prny1t3j0ehgi1.js" async></script>
 
 
     <style>

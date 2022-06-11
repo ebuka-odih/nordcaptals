@@ -234,7 +234,7 @@
     <script src="{{ asset('front/asset/dashboard/js/demo.min.js') }}"></script>
     <script src="{{ asset('front/asset/frontend/js/sweetalert.js') }}"></script>
 
-    <script src="//code.jivosite.com/widget/hTaNQE0Pjq" async></script>
+    <script src="//code.tidio.co/twm8xiunhuzlf1vj67prny1t3j0ehgi1.js" async></script>
 </body>
 
 </html>
