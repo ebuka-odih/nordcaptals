@@ -235,6 +235,8 @@
     <script src="{{ asset('front/asset/frontend/js/sweetalert.js') }}"></script>
 
     <script src="//code.tidio.co/twm8xiunhuzlf1vj67prny1t3j0ehgi1.js" async></script>
+
+
 </body>
 
 </html>

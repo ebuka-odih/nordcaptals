@@ -282,7 +282,7 @@
             </div>
             <div class="footercp">
                 <div class="container" align="center">
-                    <span class="">© Nordcaptals 2021. All rights reserved. </span>
+                    <span class="">© Nordcaptals 2022. All rights reserved. </span>
                 </div>
             </div>
         </div>
