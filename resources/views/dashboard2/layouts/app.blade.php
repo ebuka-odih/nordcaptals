@@ -234,8 +234,17 @@
     <script src="{{ asset('front/asset/dashboard/js/demo.min.js') }}"></script>
     <script src="{{ asset('front/asset/frontend/js/sweetalert.js') }}"></script>
 
-    <script src="//code.tidio.co/twm8xiunhuzlf1vj67prny1t3j0ehgi1.js" async></script>
-
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = 'add60204bf47ff68c4db8575f467eb0e6c9a11a2';
+        window.smartsupp||(function(d) {
+            var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+            s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+            c.type='text/javascript';c.charset='utf-8';c.async=true;
+            c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+        })(document);
+    </script>
 
 </body>
 
