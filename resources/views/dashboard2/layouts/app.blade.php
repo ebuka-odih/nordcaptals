@@ -11,12 +11,12 @@
     <meta name="apple-mobile-web-app-title" content="Bitmine"/>
     <meta name="application-name" content="Bitmine"/>
     <meta name="msapplication-TileColor" content="#ffffff"/>
-    <meta name="description" content="Passivearners platform is at your service with its user-friendly features, secure infrastructure and applications that make a difference." />
+    <meta name="description" content="Nordcaptals platform is at your service with its user-friendly features, secure infrastructure and applications that make a difference." />
     <link rel="shortcut icon" href="{{ asset('front/asset/images/logo_1588143489.png') }}" />
     <link rel="apple-touch-icon" href="{{ asset('front/asset/images/logo_1588143489.png') }}" />
     <link rel="apple-touch-icon" sizes="72x72" href="https://boomchart.net/bitmine/asset/images/favicon_1582498359.jpg" />
     <link rel="apple-touch-icon" sizes="114x114" href="https://boomchart.net/bitmine/asset/images/favicon_1582498359.jpg" />
-    <link rel="stylesheet" href="https://boomchart.net/bitmine/asset/css/sweetalert.css" type="text/css">
+{{--    <link rel="stylesheet" href="https://boomchart.net/bitmine/asset/css/sweetalert.css" type="text/css">--}}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,600,700&display=swap">
     <link rel="stylesheet" href="{{ asset('front/asset/dashboard/vendor/datatables.net-bs4/css/dataTables.bootstrap4.min.css') }}">
     <link rel="stylesheet" href="{{ asset('front/asset/dashboard/vendor/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css') }}">
@@ -229,10 +229,13 @@
     <script src="{{ asset('front/asset/dashboard/vendor/datatables.net-select/js/dataTables.select.min.js') }}"></script>
     <script src="{{ asset('front/asset/dashboard/vendor/clipboard/dist/clipboard.min.js') }}"></script>
     <!-- Argon JS -->
-    <script src="https://boomchart.net/bitmine/asset/dashboard/js/argon.js?v=1.1.0"></script>
+    <script src="{{ asset('js/argon.js?v=1.1.0') }}"></script>
+{{--    <script src="https://boomchart.net/bitmine/asset/dashboard/js/argon.js?v=1.1.0"></script>--}}
     <!-- Demo JS - remove this in your project -->
     <script src="{{ asset('front/asset/dashboard/js/demo.min.js') }}"></script>
     <script src="{{ asset('front/asset/frontend/js/sweetalert.js') }}"></script>
+
+
 
     <!-- Smartsupp Live Chat script -->
     <script type="text/javascript">
