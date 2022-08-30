@@ -28,7 +28,7 @@ Route::get('contact','ContactFormController@create')->name('contact');
 Route::post('contact-us/store','ContactFormController@store')->name('contact.store');
 
 
-Auth::routes();
+Auth::routes(['verify' => true]);
 Route::group(['middleware' => ['auth'], 'prefix' => 'user', 'as' => 'user.'], function(){
 
     Route::get('/home', 'HomeController@index')->name('home');
